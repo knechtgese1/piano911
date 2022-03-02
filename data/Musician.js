@@ -49,6 +49,6 @@ const musicianSchema = new mongoose.Schema({
 }
 );
 
-const Musician = mongoose.model('Blog', musicianSchema);
+const Musician = mongoose.model('Musician', musicianSchema);
 
 module.exports = Musician;
