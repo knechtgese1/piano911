@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0px 0px 0px 0px;
+  color: white;
+  background-color: midnightblue;
+  height: 100%;
+  background-image: linear-gradient(midnightblue, black);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-size: 1.1em;
+}
+
+h1 {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  filter: drop-shadow(5px 5px 2px #5b5b86);
+}
+
+.logo-container {
+  margin: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.logo-text {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 10px rgb(211, 40, 69));
+}
+
+.login-container {
+  margin: 20px 20%;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(55, 55, 214);
+  border-radius: 10px;
+  border: 1px solid rgb(162, 162, 206);
+}
+
+.labels {
+  display: block;
+  padding: 5px;
+}
+
+.buttons {
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  background-color: rgb(162, 162, 206);
+}
+
+.entries {
+  border-radius: 5px;
+  padding: 0.25rem;
+}
